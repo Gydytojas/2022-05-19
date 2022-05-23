@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antra užduotis</title>
+    <script>
+        console.log('javaScript veikia')
+        function btnSwich() {
+            let x = document.getElementById("bcgColor");
+            if (x.style.backgroundColor === "red") {
+                x.style.backgroundColor = "white";
+            } else {
+                x.style.backgroundColor = "red";
+            }
+}
+    </script>
+</head>
+<body id="bcgColor">
+    <button onclick="btnSwich()">
+        fono spalvos jungiklis
+    </button>
+</body>
+</html>
