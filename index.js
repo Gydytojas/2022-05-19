@@ -17,5 +17,9 @@ app.get('/antra_uzduotis', (req, res) => {
     res.sendFile(__dirname + '/uzduotys/2.html')
 })
 
+app.get('/trecia_uzduotis', (req, res) => {
+    res.sendFile(__dirname + '/uzduotys/3.html')
+})
+
 app.listen(3000);
 
